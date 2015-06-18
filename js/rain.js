@@ -76,6 +76,7 @@ var Rain = Composer.Class.extend({
 		if (left + img.width > this.coords.right) {
 			left = this.coords.right - img.width;
 		}
+		img.style.top = top + 'px';
 		img.style.left = left + 'px';
 		img.style.zIndex = img.size;
 		this.container.appendChild(img);
