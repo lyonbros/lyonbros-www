@@ -19,8 +19,8 @@ header p {display: none; font-size: 14px; text-align: center;}
 
 content {width: 75%; float: right;}
 content ul {display: block; text-align: center;}
-content ul li {display: inline-block; width: 150px; margin: 12px; opacity: .85; transition: opacity .3s; -webkit-transition: opacity .3s;}
-content ul li:hover {opacity: 1;}
+content ul li {display: inline-block; width: 150px; margin: 12px; transform: scale(.9, .9); transition: transform .3s; -webkit-transition: transform .3s;}
+content ul li:hover {transform: scale(1, 1);}
 content ul li .desc {display: none;}
 
 footer {width: 100%; margin: 12px auto 0 auto; padding: 0; font-size: 11rem; color: #444; text-align: center;}
