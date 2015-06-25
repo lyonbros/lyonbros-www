@@ -33,7 +33,7 @@ footer a {color: #000; font-weight: bold;}
 	header {width: auto; float: none;}
 	header h1 a {width: 150px; height: 150px;}
 	content {width: auto; float: none;}
-	content ul li {margin: 0px; opacity: 1;}
+	content ul li {margin: 0px 1px; opacity: 1;}
 }
 
 
